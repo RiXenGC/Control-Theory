@@ -4,7 +4,4 @@
 *.asv # MATLAB script autosave file
 slprj/ # Simulink Cache directories
 
-# Other file types
-
 *.tmp
-*.docx
