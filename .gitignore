@@ -1,10 +1,14 @@
 # Simplest .gitignore file for a MATLAB Project
 
-*.slxc # Simulink Cache
-*.asv # MATLAB script autosave file
-slprj/ # Simulink Cache directories
+# Simulink Cache
+*.slxc
+
+# MATLAB script autosave file
+*.asv 
+
+# Simulink Cache directories
+slprj/
 
 # Other file types
-
 *.tmp
 *.docx
