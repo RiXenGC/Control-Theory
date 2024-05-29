@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HarnessInformation>
+  <Harness>
+    <P Name="Name">Observer_Harness</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">ПК</P>
+    <P Name="CreatedOn">Thu May 23 02:04:18 2024</P>
+    <P Name="ModifiedBy">ПК</P>
+    <P Name="LastSaved">Thu May 23 02:34:49 2024</P>
+    <P Name="Owner">33</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">Observer</P>
+    <P Name="Directory"/>
+    <P Name="FileName">Observer_Harness.slx</P>
+    <P Name="SavedVersion">10.7</P>
+    <P Name="HarnessUUID">4596b6b4-17e7-43dc-bae2-8163d93c4c10</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">1</P>
+    <P Name="SourceTypeString">Signal Editor</P>
+    <P Name="SinkTypeString">Terminator</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">5|14|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||Observer_Harness</P>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+  <ModelMetadata>
+    <P Name="ModelUUID">b370127e-90b7-47e6-9d8f-f1772e5fd396</P>
+    <P Name="OwnerBDName">Observer</P>
+  </ModelMetadata>
+</HarnessInformation>

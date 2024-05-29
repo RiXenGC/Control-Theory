@@ -1,0 +1,33 @@
+[System]
+Name='Fuzzy_Logic_settings'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Eps'
+Range=[-3 3]
+NumMFs=3
+MF1='pos':'trapmf',[0 2 30 30]
+MF2='neg':'trapmf',[-30 -30 -2 0]
+MF3='perfect':'trimf',[-2 0 2]
+
+[Output1]
+Name='y'
+Range=[-1 1]
+NumMFs=3
+MF1='pos':'trapmf',[0 1 15 15]
+MF2='neg':'trapmf',[-15 -15 -1 0]
+MF3='perfect':'trimf',[-1 0 1]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
